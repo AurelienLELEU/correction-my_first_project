@@ -1,0 +1,10 @@
+{% extends "base.html.twig" %}
+{% block body %}
+    <h2> bienvenue sur {{name}} </h2>
+
+    <ul>
+        <li><a href="{{path('welcome')}}">Welcome</a></li>
+        <li><a href="{{path('lucky')}}">Lucky Number</a></li>
+    </ul>
+{% endblock %}
+    
